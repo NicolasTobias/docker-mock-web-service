@@ -199,7 +199,7 @@ def cookie():
     return resp
 
 if __name__ == '__main__':
-    redirect_server = WSGIServer(('0.0.0.0', 8089), app)
+    redirect_server = WSGIServer(('0.0.0.0', 3000), app)
     redirect_server.start()
 
     redirect_server = WSGIServer(('0.0.0.0', 8080), app)
